@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+       <link rel="stylesheet" href="styleMemory.css">
+
+    <title> Hafıza Kart Oyunu </title>
+</head>
+<body>
+
+      <h1>Hafıza Oyunu</h1> 
+        <div class="ustKisim">            
+            <!-- <span class="moves"> Move(s)</span> -->
+            <div class="sure">
+                <span class="dakika">00</span>
+                <span>:</span>
+                <span class="saniye">00</span>
+             </div>
+                   
+            <span class="yenile"><img src="./assets/refresh.svg" alt="refreshImage" id="restart"></i></span>
+        </div> 
+
+    <section class="hafiza-oyunu">    
+        <div class="hafiza-kartı" data-id="1"> 
+            <img class="on-yuz" src="./assets/elephant.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="1">
+            <img class="on-yuz" src="./assets/elephant.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="2">
+            <img class="on-yuz" src="./assets/giraffe.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="2">
+            <img class="on-yuz" src="./assets/giraffe.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="3">
+            <img class="on-yuz" src="./assets/lion.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="3">
+            <img class="on-yuz" src="./assets/lion.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="4">
+            <img class="on-yuz" src="./assets/turtle.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="4">
+            <img class="on-yuz" src="./assets/turtle.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="5">
+            <img class="on-yuz" src="./assets/whale.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="5">
+            <img class="on-yuz" src="./assets/whale.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="6">
+            <img class="on-yuz" src="./assets/zebra.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+        <div class="hafiza-kartı" data-id="6">
+            <img class="on-yuz" src="./assets/zebra.png" alt="Front image">
+            <div class="arka-yuz"></div>
+        </div>
+    </section>
+    
+    <div class="anaSayfa">
+        <a href="#" id="button1" onclick="window.open('../index.html','_self','width=1500','height=900');">Ana Sayfa</a>
+    </div>  
+    <div class="ses">
+        <button id="susturbtn"><img src="../images/unmute3.png" alt="" id="img" ></button>
+        <input id="sesayari" type="range" min="0" max="10" value="10" step="1">
+    </div>
+    <!-- Oyun tamamlaninca çikacak ekran -->
+    <section id="tebriklerSection" class="hidden">   
+        <div id="tebriklerDiv">
+            <h2 style="color: rgb(096,111,140);;">Tebrikler</h2>
+            <br>
+            <p class="final">
+                <span id="toplamSure"></span>
+            </p>
+            <br>
+            <p>
+                <a class="yeniden">Tekrar Oyna! </a>
+            </p>
+        </div>
+    </section>
+
+
+    <div id="metin">NASIL OYNANIR ? <br> <br> Hafıza Kart oyunu birbirinin aynısı olan kartları hatırlama ve eslestirme oyunudur. Kapalı olan kartlardan 2 tanesine tıklayıp sırasıyla acılır. Acılan kartlar aynı ise eslesir ve acık kalır. Eger kartlar eslesmezse kartlar tekrar kapanır. Actıgınız kartları aklınızda tutarak tum eslesmeleri yapmanız gerekir. Tum kartlar eslestiginde oyunu kazanırsınız! <br> <br> İyi Oyunlar!
+    </div>
+
+
+   <script src="appMemory.js"></script>
+</body>
+</html>

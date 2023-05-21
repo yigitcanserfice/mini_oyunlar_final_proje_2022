@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(74, 187, 218);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+#anasayfa{
+  position:absolute;
+  top:45px;
+  left:45px;
+}
+
+  button{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px; 
+  border: none;
+  margin: 50px;
+  
+}
+
+#oyun1{
+  background-image: url("images/xox_icon1.jpg");
+}
+#oyun1:hover{
+
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+  border: none;
+  transition: 0.5s;
+  background-image: url("images/xox_icon1.jpg"); 
+  background-size: 200px;
+  background-repeat: no-repeat;
+  
+}
+
+#oyun2{
+  background-image: url("images/hafiza_kapak4.jpg"); 
+  background-repeat: no-repeat;
+}
+
+#oyun2:hover{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+  border: none;
+  transition: 0.5s;
+  background-size: 200px;
+  background-image: url("images/hafiza_kapak4.jpg") no-repeat; 
+
+}
+#oyun3{
+  background-image: url("images/mole2.png"); 
+  background-repeat: no-repeat;
+}
+
+#oyun3:hover{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+  border: none;
+  transition: 0.5s;
+  background-size: 200px;
+  background-image: url("images/mole2.png") no-repeat; 
+
+}
+#oyun4{
+  background-image: url("images/ping-pong-icon.png"); 
+  background-repeat: no-repeat;
+}
+
+#oyun4:hover{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px; 
+  border: none;
+  transition: 0.5s;
+  background-size: 200px;
+  background-image: url("images/ping-pong-icon.png") no-repeat; 
+
+}
+
+
+.ses {
+  position:absolute;
+  top:45px;
+  right:45px;
+}
+#susturbtn {
+  background-color: rgb(74, 187, 218);
+  border: none;
+  width: 25px;
+  margin: 5px;
+
+}

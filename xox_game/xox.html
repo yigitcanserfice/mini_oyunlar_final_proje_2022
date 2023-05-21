@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X O X - Oyunu</title>
+    <link rel="stylesheet" href="app.css">
+    
+</head>
+<body>
+    <h1>X O X - Oyunu</h1>
+    <h2 id="oyuncu"></h2>
+    <span class="yenile"><img src="../memory_game/assets/refresh.svg" alt="refreshImage" id="yenidenBasla"></i></span>
+    <div class="oyun-alanı">
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+        <div class="blok"></div>
+    </div>
+    <p id="hata"></p>
+    
+    
+    <div class="anaSayfa">
+        <a href="#" id="button1" onclick="window.open('../index.html','_self','width=1500','height=900');">Ana Sayfa</a>
+    </div>
+    
+    
+    
+    <div class="ses">
+        <button id="susturbtn"><img src="../images/unmute3.png" alt="" id="img" height="25px" width="25px"></button>
+        <input id="sesayari" type="range" min="0" max="10" value="10" step="1">
+    </div>
+    
+    <div id="metin">NASIL OYNANIR ? <br> <br> Hafıza Kart oyunu birbirinin aynısı olan kartları hatırlama ve eslestirme oyunudur. Kapalı olan kartlardan 2 tanesine tıklayıp sırasıyla acılır. Acılan kartlar aynı ise eslesir ve acık kalır. Eger kartlar eslesmezse kartlar tekrar kapanır. Actıgınız kartları aklınızda tutarak tum eslesmeleri yapmanız gerekir. Tum kartlar eslestiginde oyunu kazanırsınız! <br> <br> İyi Oyunlar!
+    </div>
+
+    <script src="app.js"></script>
+    
+    
+</body>
+</html>

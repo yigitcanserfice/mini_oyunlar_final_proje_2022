@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <title>Köstebek Oyunu</title>
+  <link rel="stylesheet" href="still.css">
+
+</head>
+
+<body>
+
+  <h2 class="bilgi">-Köstebek Vurma Oyunu-</h2>
+
+  <div class="anaSayfa">
+    <a href="#" id="button1" onclick="window.open('../index.html','_self','width=1500','height=900');">Ana Sayfa</a>
+</div>
+
+
+  <h3 class="bilgi">PUAN: <p id="puan" class="bilgi">0</p></h3>
+  
+  <h3 class="bilgi" id="KalanSure">KALAN SÜRE: <p id="kalanSure" class="bilgi">30</p></h3>
+  <span class="refresh"><img src="../memory_game/assets/refresh.svg" alt="refreshImage" id="yenidenBasla"></i></span>
+
+  <div class="ses">
+        <button id="susturbtn"><img src="../images/unmute3.png" alt="" id="img" height="25px" width="25px"></button>
+        <input id="sesayari" type="range" min="0" max="10" value="10" step="1">
+    </div>
+   <!--NASIL OYNANIR ? -->
+  <div id="metin">NASIL OYNANIR ? <br> <br> Köstebek vurma oyunu ekranında 9 tane yuva deliği bulunuyor.
+     Bu deliklerden çıkan köstebeğin kafasına çekiçle vurarak puan toplayın.
+    Ekranın üst tarafında Kalan Süre kısmında görünen süre bitmeden mümkün olan en fazla sayıda puan toplayarak rekor kırmanız gerekiyor.
+     Hemen sürenin yanında oyunda topladığınız puan görünüyor.
+      Fare ve elinizi hızlı bir şekilde kullanarak mouse ile köstebek vurma oyunu oynayın. İyi Oyunlar :) </div>
+
+   <!--3X3 KARELERİN OLUŞTURULMASI-->
+  <div class="ızgara" id="anaGovde"> 
+    <div class="kare" id="1"></div>
+     <div class="kare" id="2"></div>
+      <div class="kare" id="3"></div>
+      <div class="kare" id="4"></div>
+       <div class="kare" id="5"></div>
+      <div class="kare" id="6"></div>
+       <div class="kare" id="7"></div>
+      <div class="kare" id="8"></div>
+    <div class="kare" id="9"></div>
+  </div>
+
+  <script src="uygulama.js"></script>
+
+</body>
+</html>
